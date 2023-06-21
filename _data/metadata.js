@@ -1,11 +1,11 @@
 module.exports = {
 	title: "Product7",
-	url: "https://example.com/",
+	url: "https://product7.github.io/",
 	language: "en",
-	description: "I am writing about my experiences as a naval navel-gazer.",
+	description: "Product7",
 	author: {
-		name: "Your Name Here",
-		email: "youremailaddress@example.com",
-		url: "https://example.com/about-me/"
+		name: "John Gillespie",
+		email: "john.gillespie@product7.com",
+		url: "https://product7.github.io/"
 	}
 }
