@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:base="en">
 	<title>Product7</title>
-	<subtitle>I am writing about my experiences as a naval navel-gazer.</subtitle>
-	<link href="https://example.com/feed/feed.xml" rel="self"/>
-	<link href="https://example.com/"/>
+	<subtitle>Product7</subtitle>
+	<link href="https://product7.github.io/feed/feed.xml" rel="self"/>
+	<link href="https://product7.github.io/"/>
 	<updated>2023-06-20T00:00:00Z</updated>
-	<id>https://example.com/</id>
+	<id>https://product7.github.io/</id>
 	<author>
-		<name>Your Name Here</name>
-		<email>youremailaddress@example.com</email>
+		<name>John Gillespie</name>
+		<email>john.gillespie@product7.com</email>
 	</author>
 	
 	<entry>
 		<title>Godot</title>
-		<link href="https://example.com/blog/firstpost/"/>
+		<link href="https://product7.github.io/blog/firstpost/"/>
 		<updated>2023-06-20T00:00:00Z</updated>
-		<id>https://example.com/blog/firstpost/</id>
+		<id>https://product7.github.io/blog/firstpost/</id>
 		<content type="html">&lt;p&gt;Godot is a cross-platform, free and open-source game engine released under the MIT license.&lt;/p&gt;
 &lt;p&gt;Godot allows video game developers to create 3D and 2D games using multiple programming languages, such as C++, C# and GDscript. It makes use of a hierarchy of nodes to facilitate the development experience. Classes can be derived from a node type to create more specialized node types that inherit behavior. Nodes are organized inside of &amp;quot;scenes&amp;quot;, which are reusable, instanceable, inheritable, and nestable groups of nodes. All game resources, including scripts and graphical assets, are saved as part of the computer&#39;s file system (rather than in a database).&lt;/p&gt;
 </content>

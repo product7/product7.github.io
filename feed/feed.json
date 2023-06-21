@@ -2,17 +2,17 @@
 	"version": "https://jsonfeed.org/version/1.1",
 	"title": "Product7",
 	"language": "en",
-	"home_page_url": "https://example.com/",
-	"feed_url": "https://example.com/feed/feed.json",
-	"description": "I am writing about my experiences as a naval navel-gazer.",
+	"home_page_url": "https://product7.github.io/",
+	"feed_url": "https://product7.github.io/feed/feed.json",
+	"description": "Product7",
 	"author": {
-		"name": "Your Name Here",
-		"url": "https://example.com/about-me/"
+		"name": "John Gillespie",
+		"url": "https://product7.github.io/"
 	},
 	"items": [
 		{
-			"id": "https://example.com/blog/firstpost/",
-			"url": "https://example.com/blog/firstpost/",
+			"id": "https://product7.github.io/blog/firstpost/",
+			"url": "https://product7.github.io/blog/firstpost/",
 			"title": "Godot",
 			"content_html": "<p>Godot is a cross-platform, free and open-source game engine released under the MIT license.</p>\n<p>Godot allows video game developers to create 3D and 2D games using multiple programming languages, such as C++, C# and GDscript. It makes use of a hierarchy of nodes to facilitate the development experience. Classes can be derived from a node type to create more specialized node types that inherit behavior. Nodes are organized inside of &quot;scenes&quot;, which are reusable, instanceable, inheritable, and nestable groups of nodes. All game resources, including scripts and graphical assets, are saved as part of the computer's file system (rather than in a database).</p>\n",
 			"date_published": "2023-06-20T00:00:00Z"
