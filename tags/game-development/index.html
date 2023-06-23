@@ -24,6 +24,10 @@
 
 	--background-color: #fff;
 
+	--background-color-site: #ecf5f4;
+
+	--background-color-white: #fff;
+
 	--text-color: var(--color-gray-90);
 	--text-color-link: #082840;
 	--text-color-link-active: #5f2b48;
@@ -59,7 +63,7 @@ body {
 	margin: 0 auto;
 	font-family: var(--font-family);
 	color: var(--text-color);
-	background-color: var(--background-color);
+	background-color: var(--background-color-site);
 }
 html {
 	overflow-y: scroll;
@@ -201,15 +205,18 @@ header {
 	align-items: baseline;
 	counter-increment: start-from -1;
 	margin-bottom: 1em;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	transition: 0.3s;
+	border-radius: 5px; /* 5px rounded corners */
+	padding: 2px 16px;
+	margin-bottom: 20px;
+	background-color: var(--background-color-white);
 }
-.postlist-item:before {
-	display: inline-block;
-	pointer-events: none;
-	content: "" counter(start-from, decimal-leading-zero) ". ";
-	line-height: 100%;
-	text-align: right;
-	margin-left: -1.5rem;
+
+.postlist-description {
+	padding-left: 5px;
 }
+
 .postlist-date,
 .postlist-item:before {
 	font-size: 0.8125em; /* 13px /16 */
@@ -306,8 +313,9 @@ h2 + .header-anchor {
 <ol reversed class="postlist">
 
 	<li class="postlist-item">
-		<a href="/blog/firstpost/" class="postlist-link">Godot</a>
-		<time class="postlist-date" datetime="2023-06-20">June 2023</time>
+	<img alt="Godot thumb nail" loading="lazy" decoding="async" src="/img/K0wcR0Ks_a-100.png" width="100" height="92">
+		<a href="/blog/thirdpost/" class="postlist-link">Godot Engine</a>
+		<div class="postlist-description">Open source game engine</div>
 	</li>
 
 </ol>
@@ -321,5 +329,6 @@ h2 + .header-anchor {
 		<footer></footer>
 
 		<!-- Current page: /tags/game-development/ -->
+
 	</body>
 </html>

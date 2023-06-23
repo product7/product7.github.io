@@ -4,7 +4,7 @@
 	<subtitle>Product7</subtitle>
 	<link href="https://product7.github.io/feed/feed.xml" rel="self"/>
 	<link href="https://product7.github.io/"/>
-	<updated>2023-06-20T00:00:00Z</updated>
+	<updated>2023-06-23T00:00:00Z</updated>
 	<id>https://product7.github.io/</id>
 	<author>
 		<name>John Gillespie</name>
@@ -12,12 +12,15 @@
 	</author>
 	
 	<entry>
-		<title>Godot</title>
-		<link href="https://product7.github.io/blog/firstpost/"/>
-		<updated>2023-06-20T00:00:00Z</updated>
-		<id>https://product7.github.io/blog/firstpost/</id>
-		<content type="html">&lt;p&gt;Godot is a cross-platform, free and open-source game engine released under the MIT license.&lt;/p&gt;
+		<title>Godot Engine</title>
+		<link href="https://product7.github.io/blog/thirdpost/"/>
+		<updated>2023-06-23T00:00:00Z</updated>
+		<id>https://product7.github.io/blog/thirdpost/</id>
+		<content type="html">&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://product7.github.io/img/K0wcR0Ks_a-100.avif 100w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://product7.github.io/img/K0wcR0Ks_a-100.webp 100w&quot;&gt;&lt;img alt=&quot;Godot thumb nail&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://product7.github.io/img/K0wcR0Ks_a-100.png&quot; width=&quot;100&quot; height=&quot;92&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
+&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://product7.github.io/img/5P6yTuI9u1-320.avif 320w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://product7.github.io/img/5P6yTuI9u1-320.webp 320w&quot;&gt;&lt;img alt=&quot;Godot screen shot&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://product7.github.io/img/5P6yTuI9u1-320.png&quot; width=&quot;320&quot; height=&quot;144&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://godotengine.org/&quot;&gt;Godot&lt;/a&gt; is a cross-platform, free and open-source game engine released under the MIT license.&lt;/p&gt;
 &lt;p&gt;Godot allows video game developers to create 3D and 2D games using multiple programming languages, such as C++, C# and GDscript. It makes use of a hierarchy of nodes to facilitate the development experience. Classes can be derived from a node type to create more specialized node types that inherit behavior. Nodes are organized inside of &amp;quot;scenes&amp;quot;, which are reusable, instanceable, inheritable, and nestable groups of nodes. All game resources, including scripts and graphical assets, are saved as part of the computer&#39;s file system (rather than in a database).&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://godotengine.org/features/&quot;&gt;List of Features&lt;/a&gt;&lt;/p&gt;
 </content>
 	</entry>
 </feed>
