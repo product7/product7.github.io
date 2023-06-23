@@ -3,8 +3,10 @@
 {% for post in postslist | reverse %}
 	<li class="postlist-item{% if post.url == url %} postlist-item-active{% endif %}">
 	{% first_image post %}
+		<div>
 		<a href="{{ post.url }}" class="postlist-link">{% if post.data.title %}{{ post.data.title }}{% else %}<code>{{ post.url }}</code>{% endif %}</a>
 		<div class="postlist-description">{{ post.data.description }}</div>
+		</div>
 	</li>
 {% endfor %}
 </ol>

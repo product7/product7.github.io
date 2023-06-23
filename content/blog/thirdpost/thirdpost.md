@@ -7,8 +7,6 @@ tags:
   - Game Development
 ---
 
-{% image "./godot_thumb.png", "Godot thumb nail" %}
-
 {% image "./godotscreenshot_1.png", "Godot screen shot" %}
 
 <a href="https://godotengine.org/">Godot</a> is a cross-platform, free and open-source game engine released under the MIT license.
@@ -17,5 +15,13 @@ Godot allows video game developers to create 3D and 2D games using multiple prog
 
 
 <a href="https://godotengine.org/features/">List of Features</a>
+
+<a href="https://godotengine.org/showcase/">Showcase</a>
+
+Freecodecamp resources for <a href="https://www.freecodecamp.org/news/tag/godot/">learning Godot</a>
+
+
+{% image "./godot_thumb.png", "Godot thumb nail" %}
+
 
 

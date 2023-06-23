@@ -156,7 +156,7 @@ function extractFirstImage(doc) {
 	
   
 	if (content.includes('<img')) {
-	  const imgTagBegin = content.indexOf('<img');
+	  const imgTagBegin = content.lastIndexOf('<img');
 	  const imgTagEnd = content.indexOf('>', imgTagBegin);
 
 	  var testValue = content.substring(imgTagBegin, imgTagEnd + 1);
