@@ -70,7 +70,16 @@ html {
 }
 body {
 	max-width: 40em;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
 }
+
+footer {
+	margin-top: auto;
+	text-align: center;
+	padding-bottom: 20px;
+  }
 
 /* https://www.a11yproject.com/posts/how-to-hide-content/ */
 .visually-hidden {
@@ -201,9 +210,6 @@ header {
 }
 .postlist-item {
 	display: flex;
-	flex-wrap: wrap;
-	align-items: baseline;
-	counter-increment: start-from -1;
 	margin-bottom: 1em;
 	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 	transition: 0.3s;
@@ -211,10 +217,18 @@ header {
 	padding: 2px 16px;
 	margin-bottom: 20px;
 	background-color: var(--background-color-white);
+	align-items: center;
+	padding: 10px;
+	align-content: space-around;
 }
 
 .postlist-description {
 	padding-left: 5px;
+}
+
+.postlist-item img {
+	margin-right: 20px;
+	max-width: 100px;
 }
 
 .postlist-date,
@@ -314,8 +328,10 @@ h2 + .header-anchor {
 
 	<li class="postlist-item">
 	<img alt="Godot thumb nail" loading="lazy" decoding="async" src="/img/K0wcR0Ks_a-100.png" width="100" height="92">
+		<div>
 		<a href="/blog/thirdpost/" class="postlist-link">Godot Engine</a>
 		<div class="postlist-description">Open source game engine</div>
+		</div>
 	</li>
 
 </ol>
@@ -326,7 +342,8 @@ h2 + .header-anchor {
 
 		</main>
 
-		<footer></footer>
+		<footer>@2023 Product7 - All Rights Reserved
+- <a href="https://github.com/johngillespie">Contact</a></footer>
 
 		<!-- Current page: /tags/game-development/ -->
 

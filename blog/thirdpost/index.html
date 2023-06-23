@@ -237,7 +237,16 @@ html {
 }
 body {
 	max-width: 40em;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
 }
+
+footer {
+	margin-top: auto;
+	text-align: center;
+	padding-bottom: 20px;
+  }
 
 /* https://www.a11yproject.com/posts/how-to-hide-content/ */
 .visually-hidden {
@@ -368,9 +377,6 @@ header {
 }
 .postlist-item {
 	display: flex;
-	flex-wrap: wrap;
-	align-items: baseline;
-	counter-increment: start-from -1;
 	margin-bottom: 1em;
 	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 	transition: 0.3s;
@@ -378,10 +384,18 @@ header {
 	padding: 2px 16px;
 	margin-bottom: 20px;
 	background-color: var(--background-color-white);
+	align-items: center;
+	padding: 10px;
+	align-content: space-around;
 }
 
 .postlist-description {
 	padding-left: 5px;
+}
+
+.postlist-item img {
+	margin-right: 20px;
+	max-width: 100px;
 }
 
 .postlist-date,
@@ -479,16 +493,19 @@ h2 + .header-anchor {
 	<li><a href="/tags/game-development/" class="post-tag">Game Development</a></li>
 </ul>
 
-<p><picture><source type="image/avif" srcset="/img/K0wcR0Ks_a-100.avif 100w"><source type="image/webp" srcset="/img/K0wcR0Ks_a-100.webp 100w"><img alt="Godot thumb nail" loading="lazy" decoding="async" src="/img/K0wcR0Ks_a-100.png" width="100" height="92"></picture></p>
 <p><picture><source type="image/avif" srcset="/img/5P6yTuI9u1-320.avif 320w"><source type="image/webp" srcset="/img/5P6yTuI9u1-320.webp 320w"><img alt="Godot screen shot" loading="lazy" decoding="async" src="/img/5P6yTuI9u1-320.png" width="320" height="144"></picture></p>
 <p><a href="https://godotengine.org/">Godot</a> is a cross-platform, free and open-source game engine released under the MIT license.</p>
 <p>Godot allows video game developers to create 3D and 2D games using multiple programming languages, such as C++, C# and GDscript. It makes use of a hierarchy of nodes to facilitate the development experience. Classes can be derived from a node type to create more specialized node types that inherit behavior. Nodes are organized inside of &quot;scenes&quot;, which are reusable, instanceable, inheritable, and nestable groups of nodes. All game resources, including scripts and graphical assets, are saved as part of the computer's file system (rather than in a database).</p>
 <p><a href="https://godotengine.org/features/">List of Features</a></p>
+<p><a href="https://godotengine.org/showcase/">Showcase</a></p>
+<p>Freecodecamp resources for <a href="https://www.freecodecamp.org/news/tag/godot/">learning Godot</a></p>
+<p><picture><source type="image/avif" srcset="/img/K0wcR0Ks_a-100.avif 100w"><source type="image/webp" srcset="/img/K0wcR0Ks_a-100.webp 100w"><img alt="Godot thumb nail" loading="lazy" decoding="async" src="/img/K0wcR0Ks_a-100.png" width="100" height="92"></picture></p>
 
 
 		</main>
 
-		<footer></footer>
+		<footer>@2023 Product7 - All Rights Reserved
+- <a href="https://github.com/johngillespie">Contact</a></footer>
 
 		<!-- Current page: /blog/thirdpost/ -->
 
