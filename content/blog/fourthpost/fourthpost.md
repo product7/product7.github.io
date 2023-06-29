@@ -8,7 +8,7 @@ tags:
 
 {% image "./aicodecamp.png", "AI History" %}
 
-A great article from freeCodeCamp on the the  <a href="https://www.freecodecamp.org/news the-history-of-ai">history of Artificial Intelligence from the 1950s to today</a>
+A great article from freeCodeCamp on the the  <a href="https://www.freecodecamp.org/news/the-history-of-ai/">history of Artificial Intelligence from the 1950s to today</a>
 
 This article provides a comprehensive history of Artificial Intelligence right from its lesser-known days (when it wasn't even called AI) to the current age of Generative AI.
 
