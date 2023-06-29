@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
 	
 	<url>
+		<loc>https://product7.github.io/blog/secondpost/</loc>
+		<lastmod>2023-05-25</lastmod>
+	</url>
+	
+	<url>
 		<loc>https://product7.github.io/blog/thirdpost/</loc>
 		<lastmod>2023-06-13</lastmod>
 	</url>
@@ -33,6 +38,11 @@
 	
 	<url>
 		<loc>https://product7.github.io/tags/artificial-intelligence/</loc>
+		<lastmod>2023-06-29</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://product7.github.io/tags/programming/</loc>
 		<lastmod>2023-06-29</lastmod>
 	</url>
 	

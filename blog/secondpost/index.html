@@ -4,14 +4,181 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta http-equiv="Permissions-Policy" content="interest-cohort=()">
-		<title>Product7</title>
-		<meta name="description" content="Product7">
+		<title>Learning to Program</title>
+		<meta name="description" content="Good sites to learn programming or web site development">
 
 		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 		<link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Product7">
 		<link rel="alternate" href="/feed/feed.json" type="application/json" title="Product7">
 		
-		<style>.postlist { counter-reset: start-from 4 }
+		<style>/**
+ * okaidia theme for JavaScript, CSS and HTML
+ * Loosely based on Monokai textmate theme by http://www.monokai.nl/
+ * @author ocodia
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+	color: #f8f8f2;
+	background: none;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-size: 1em;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+	border-radius: 0.3em;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #272822;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: #8292a2;
+}
+
+.token.punctuation {
+	color: #f8f8f2;
+}
+
+.token.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #f92672;
+}
+
+.token.boolean,
+.token.number {
+	color: #ae81ff;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #a6e22e;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+	color: #f8f8f2;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.function,
+.token.class-name {
+	color: #e6db74;
+}
+
+.token.keyword {
+	color: #66d9ef;
+}
+
+.token.regex,
+.token.important {
+	color: #fd971f;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+/*
+ * New diff- syntax
+ */
+
+pre[class*="language-diff-"] {
+	--eleventy-code-padding: 1.25em;
+	padding-left: var(--eleventy-code-padding);
+	padding-right: var(--eleventy-code-padding);
+}
+.token.deleted {
+	background-color: hsl(0, 51%, 37%);
+	color: inherit;
+}
+.token.inserted {
+	background-color: hsl(126, 31%, 39%);
+	color: inherit;
+}
+
+/* Make the + and - characters unselectable for copy/paste */
+.token.prefix.unchanged,
+.token.prefix.inserted,
+.token.prefix.deleted {
+	-webkit-user-select: none;
+	user-select: none;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.token.prefix.inserted,
+.token.prefix.deleted {
+	width: var(--eleventy-code-padding);
+	background-color: rgba(0,0,0,.2);
+}
+
+/* Optional: full-width background color */
+.token.inserted:not(.prefix),
+.token.deleted:not(.prefix) {
+	display: block;
+	margin-left: calc(-1 * var(--eleventy-code-padding));
+	margin-right: calc(-1 * var(--eleventy-code-padding));
+	text-decoration: none; /* override del, ins, mark defaults */
+	color: inherit; /* override del, ins, mark defaults */
+}
 * { box-sizing: border-box; }
 /* Defaults */
 :root {
@@ -313,7 +480,7 @@ h2 + .header-anchor {
 			<nav>
 				<h2 class="visually-hidden">Top level navigation menu</h2>
 				<ul class="nav">
-					<li class="nav-item"><a href="/" aria-current="page">Home</a></li>
+					<li class="nav-item"><a href="/">Home</a></li>
 					<li class="nav-item"><a href="/blog/">Archive</a></li>
 					<li class="nav-item"><a href="/about/">About</a></li>
 				</ul>
@@ -322,56 +489,30 @@ h2 + .header-anchor {
 
 		<main id="skip">
 			
+<h1>Learning to Program</h1>
 
+<ul class="post-metadata">
+	<li><time datetime="2023-05-25">25 May 2023</time></li>
+	<li><a href="/tags/programming/" class="post-tag">Programming</a></li>
+</ul>
 
+<p><picture><source type="image/avif" srcset="/img/ClxATQA7AP-100.avif 100w"><source type="image/webp" srcset="/img/ClxATQA7AP-100.webp 100w"><img alt="Programming" loading="lazy" decoding="async" src="/img/ClxATQA7AP-100.png" width="100" height="75"></picture></p>
+<p>I get asked quite often for good sites to learn programming or web site development, here are a few resources I recommend.</p>
+<p><a href="https://www.freecodecamp.org/">freeCodeCamp</a> – the best place to learn html, javscript and the rest of technologies necessary for front end web development, they have a full stack developer course as well – can’t recommend these guys enough – a great intro to web technologies</p>
+<p>Google has a <a href="https://techdevguide.withgoogle.com/">list of resources and a guide</a> intended for Computer Science students seeking an internship or university grad role at Google but it is useful for anyone who is interested in a software development career.</p>
+<p><a href="http://www.cs.hmc.edu/csforall/">CS for All</a> is an open book by professors at Harvey Mudd College which teaches the fundamentals of computer science using Python. It’s an accessible read and perfect for programming beginners.</p>
+<p>If you’ve never programmed before check out the <a href="http://learntocodewith.me/getting-started/">Getting Started</a> page on Learn To Code with Me by Laurence Bradford. She’s done an incredible job of breaking down the steps beginners should take when they’re uncertain about where to begin.</p>
+<p>This short <a href="https://www.youtube.com/watch?v=mvK0UzFNw1Q">5 minute video</a> explains why it’s better to think of projects you’d like to build and problems you want to solve with programming. Start working on those projects and problems rather than jumping into a specific language that’s recommended to you by a friend.</p>
 
-<h2>Latest 3 Posts</h2>
-
-
-
-
-<ol reversed class="postlist">
-
-	<li class="postlist-item">
-	<img alt="AI History" loading="lazy" decoding="async" src="/img/lT2QMq4Mw3-100.png" width="100" height="67">
-		<div>
-		<a href="/blog/fourthpost/" class="postlist-link">AI History</a>
-		<div class="postlist-description">The History of Artificial Intelligence from the 1950s to Today</div>
-		</div>
-	</li>
-
-	<li class="postlist-item">
-	<img alt="Godot thumb nail" loading="lazy" decoding="async" src="/img/K0wcR0Ks_a-100.png" width="100" height="92">
-		<div>
-		<a href="/blog/thirdpost/" class="postlist-link">Godot Engine</a>
-		<div class="postlist-description">Open source game engine</div>
-		</div>
-	</li>
-
-	<li class="postlist-item">
-	<img alt="Programming" loading="lazy" decoding="async" src="/img/ClxATQA7AP-100.png" width="100" height="75">
-		<div>
-		<a href="/blog/secondpost/" class="postlist-link">Learning to Program</a>
-		<div class="postlist-description">Good sites to learn programming or web site development</div>
-		</div>
-	</li>
-
-</ol>
-
-
-
-
-
-
-
-
+<ul class="links-nextprev"><li>Next: <a href="/blog/thirdpost/">Godot Engine</a></li>
+</ul>
 
 		</main>
 
 		<footer>@2023 Product7 - All Rights Reserved
 - <a href="https://github.com/johngillespie">Contact</a></footer>
 
-		<!-- Current page: / -->
+		<!-- Current page: /blog/secondpost/ -->
 
 	</body>
 </html>
