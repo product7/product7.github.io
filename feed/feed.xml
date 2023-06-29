@@ -4,7 +4,7 @@
 	<subtitle>Product7</subtitle>
 	<link href="https://product7.github.io/feed/feed.xml" rel="self"/>
 	<link href="https://product7.github.io/"/>
-	<updated>2023-06-23T00:00:00Z</updated>
+	<updated>2023-06-27T00:00:00Z</updated>
 	<id>https://product7.github.io/</id>
 	<author>
 		<name>John Gillespie</name>
@@ -12,9 +12,33 @@
 	</author>
 	
 	<entry>
+		<title>AI History</title>
+		<link href="https://product7.github.io/blog/fourthpost/"/>
+		<updated>2023-06-27T00:00:00Z</updated>
+		<id>https://product7.github.io/blog/fourthpost/</id>
+		<content type="html">&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://product7.github.io/img/lT2QMq4Mw3-100.avif 100w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://product7.github.io/img/lT2QMq4Mw3-100.webp 100w&quot;&gt;&lt;img alt=&quot;AI History&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://product7.github.io/img/lT2QMq4Mw3-100.png&quot; width=&quot;100&quot; height=&quot;67&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
+&lt;p&gt;A great article from freeCodeCamp on the the  &lt;a href=&quot;https://www.freecodecamp.org/news the-history-of-ai&quot;&gt;history of Artificial Intelligence from the 1950s to today&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;This article provides a comprehensive history of Artificial Intelligence right from its lesser-known days (when it wasn&#39;t even called AI) to the current age of Generative AI.&lt;/p&gt;
+&lt;p&gt;The milestones covered:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The Dartmouth Conference&lt;/li&gt;
+&lt;li&gt;The Perceptron&lt;/li&gt;
+&lt;li&gt;The AI boom of the 1960s&lt;/li&gt;
+&lt;li&gt;The AI winter of the 1980s&lt;/li&gt;
+&lt;li&gt;The Development of Expert Systems&lt;/li&gt;
+&lt;li&gt;The Emergence of NLPs and Computer Vision in the 1990s&lt;/li&gt;
+&lt;li&gt;The Rise of Big Data&lt;/li&gt;
+&lt;li&gt;The Advent of Deep Learning&lt;/li&gt;
+&lt;li&gt;The Development of Generative AI&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Freecodecamp resources for &lt;a href=&quot;https://www.freecodecamp.org/news/tag/artificial-intelligence/&quot;&gt;AI Development&lt;/a&gt;&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
 		<title>Godot Engine</title>
 		<link href="https://product7.github.io/blog/thirdpost/"/>
-		<updated>2023-06-23T00:00:00Z</updated>
+		<updated>2023-06-13T00:00:00Z</updated>
 		<id>https://product7.github.io/blog/thirdpost/</id>
 		<content type="html">&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://product7.github.io/img/5P6yTuI9u1-320.avif 320w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://product7.github.io/img/5P6yTuI9u1-320.webp 320w&quot;&gt;&lt;img alt=&quot;Godot screen shot&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://product7.github.io/img/5P6yTuI9u1-320.png&quot; width=&quot;320&quot; height=&quot;144&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://godotengine.org/&quot;&gt;Godot&lt;/a&gt; is a cross-platform, free and open-source game engine released under the MIT license.&lt;/p&gt;
